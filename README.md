@@ -10,20 +10,19 @@ Just clone this into your craft plugins folder and you likely know the rest.
 
 Use it via a pipe:
 
-  {% set string = "Foo Bar Island" %}
+    {% set string = "Foo Bar Island" %}
 
-  {% if string | match("/Island$/") %}
-    Foo! You're on an island!
-  {% endif }
+    {% if string | match("/Island$/") %}
+      Foo! You're on an island!
+    {% endif }
 
 Or via a "."
 
-  {% set string = "Foo Bar Island" %}
+    {% set string = "Foo Bar Island" %}
 
-  {% if string.match("/^Foo/") %}
-    Foo! You're on an island!
-  {% endif }
-
+    {% if string.match("/^Foo/") %}
+      Foo! You're on an island!
+    {% endif }
 
 Cheers!
 
