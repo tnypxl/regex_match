@@ -1,6 +1,6 @@
 # Regex Match
 
-This plugin allows you to access PHP's preg_match function of which returns a boolean
+This plugin allows you to access PHP's preg_match function in your Twig templates.
 
 ### Install
 
