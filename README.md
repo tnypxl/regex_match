@@ -1,6 +1,6 @@
 # Regex Match
 
-This is a Craft CMS plugin that lets you to access PHP's preg_match function in your Twig templates.
+This is a Craft CMS plugin that lets you access PHP's preg_match function in your Twig templates.
 
 ### Install
 
